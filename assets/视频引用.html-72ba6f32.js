@@ -1,1 +1,0 @@
-import{_ as o,X as t,Y as _,$ as n,E as c}from"./framework-618a7d34.js";const i={};function l(r,s){const e=c("BiliBili");return t(),_("div",null,[n(e,{bvid:"BV1kt411o7C3"})])}const m=o(i,[["render",l],["__file","视频引用.html.vue"]]);export{m as default};

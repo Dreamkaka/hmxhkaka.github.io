@@ -1,0 +1,10 @@
+import _taggedTemplateLiteral from "@babel/runtime/helpers/esm/taggedTemplateLiteral";
+var _templateObject;
+import { createStyles } from 'antd-style';
+export var useStyles = createStyles(function (_ref) {
+  var css = _ref.css,
+    token = _ref.token;
+  return {
+    sidebar: css(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    grid-area: sidebar;\n    overflow: auto;\n    position: sticky;\n    top: ", "px;\n    max-height: calc(100vh - ", "px);\n\n    padding-top: 20px;\n    padding-bottom: 24px;\n    padding-inline: 16px;\n    border-right: 1px solid ", ";\n\n    > dl {\n      margin: 0;\n      padding: 0;\n      line-height: 1;\n\n      > dt {\n        margin: 8px 0;\n        color: ", ";\n        font-weight: 500;\n        white-space: nowrap;\n        overflow: hidden;\n        text-overflow: ellipsis;\n        text-transform: uppercase;\n      }\n\n      > dd {\n        margin: 0;\n        padding: 2px 0;\n\n        > a {\n          padding: 6px 12px;\n          border-radius: 6px;\n          display: block;\n          font-size: ", "px;\n          line-height: ", ";\n          text-decoration: none;\n          transition: all 0.1s;\n\n          white-space: nowrap;\n          overflow: hidden;\n          text-overflow: ellipsis;\n\n          color: ", ";\n\n          &:hover {\n            color: ", ";\n            background: ", ";\n          }\n\n          &.active {\n            color: ", ";\n            background: ", ";\n\n            &:hover {\n              color: ", ";\n              background: ", ";\n            }\n          }\n        }\n      }\n\n      // divider line & gap\n      + dl {\n        margin-top: 16px;\n        padding-top: 16px;\n        border-top: 1px dashed ", ";\n      }\n    }\n  "])), token.headerHeight, token.headerHeight, token.colorSplit, token.colorText, token.fontSize, token.lineHeight, token.colorTextSecondary, token.colorText, token.colorFillTertiary, token.colorPrimaryText, token.colorPrimaryBg, token.colorPrimaryTextHover, token.colorPrimaryBgHover, token.colorBorder)
+  };
+});
